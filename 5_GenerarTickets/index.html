@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+  <h2>Generar Tickets</h2>
+  <hr class="divider" />
+  <div>
+    Seleccione los datos del ticket:</br></br>
+    <form id="form" action="#" method="post">
+      <label>Nombre:</label>
+      <input type="text" id="name" value="Mickey" name="name"/>
+    </br></br>
+      <label>Apellido:</label>
+      <input type="textInput" id="lastname" value="Mouse" name="lastname"/>
+    </br></br>
+      <label>DNI:</label>
+      <input type="numberInput" id="dni" value="11222333" name="dni"/>
+    </br></br>
+      <label>Asiento:</label>
+      <input type="numberInput" id="seat" value="20" name="seat"/>
+    </br></br>
+      <label>Fila:</label>
+      <select id="rowSelector" name="rowSelector">
+        <option value="A" selected="selected">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+        <option value="E">E</option>
+        <option value="F">F</option>
+        <option value="G">G</option>
+      </select>
+    </br></br>
+      <label>Sector:</label>
+      <select id="sectorSelector" name="sectorSelector">
+        <option value="Rojo">Rojo</option>
+        <option value="Verde">Verde</option>
+        <option value="Azul">Azul</option>
+        <option value="Amarillo">Amarillo</option>
+      </select>
+    </br></br>
+    <input type="button" value="GENERAR" id="purchaseBtn" name="purchaseBtn"/>
+  </form>
+</div>
+<hr class="divider" />
+</section>
+
+<section>
+  <h2>Tickets</h2>
+  <hr class="divider" />
+  <div id="ticketPrinter"></div>
+
+<!--<div id="ticket" class="ticket">
+  <label name="ticketNumber">N° 10</label>
+  </br></br>
+  <div name="eventTitle" class="eventTitle">Super Evento Fantastico</div>
+  </br>
+  <p name="eventDate" class="alignRight">15-02-2018 18:00</p>
+  </br>
+  <p name="personName">Nombre: Roberto Carlos</p>
+  <p name="DNI">DNI: 18.525.502</p>
+  </br>
+  <p name="labelAsientoFilaSector">Asiento - Fila - Sector</p>
+  <div class="row">
+  <div class="column seatRawSectorPrice" name="dataSeatRawSector">02 - A - Rojo</div>
+  <div class="column seatRawSectorPrice alignRight" name="price">$ 2.000.-</div>
+</div>
+</div>-->
+</section>
+
+</body>
+<script type="text/JavaScript" src="miscript.js"></script>
+</html>
