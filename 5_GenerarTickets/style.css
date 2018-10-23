@@ -1,0 +1,46 @@
+body {
+  background-color: #EEE;
+  font-family: Arial;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  border: 0px;
+}
+
+.ticket {
+  background-color: #F90;
+  margin:auto;
+  width: 500px;
+  border: 2px solid red;
+  padding: 7px;
+  display: inherit;
+}
+
+.eventTitle {
+  font-size: 35px;
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.seatRawSectorPrice {
+  font-size: 35px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
