@@ -1,5 +1,8 @@
 //Defino las variables que voy a utilizar.
-var dataEvent = { eventName : "Super Evento Fantastico!", eventPrice : 2000, eventDate : "2018-11-10",  eventTime : "09:00:00"};
+var dataEvent = { eventName : "Super Evento Fantastico!",
+                eventPrice : 2000,
+                eventDate : "2018-11-10",
+                eventTime : "09:00:00"};
 var ticketsArray = [];
 var numTicket = 0;
 
@@ -55,7 +58,7 @@ function printTicket() {
   var data = JSON.parse(ticketsArray[numTicket-1]);
 
   //Genero el div con el nuevo ticket a imprimit.
-  var divContent += '<div id="ticket" class="ticket">';
+  var divContent = '<div id="ticket" class="ticket">';
   divContent += '<label name="ticketNumber">N ' + numTicket + '</label></br></br>';
   divContent += '<div name="eventTitle" class="eventTitle">'+ dataEvent.eventName + '</div></br>';
   divContent += '<p name="eventDate" class="alignRight">' + dataEvent.eventDate + ' - ' + dataEvent.eventTime + '</p></br>';
