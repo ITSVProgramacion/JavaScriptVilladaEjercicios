@@ -1,5 +1,8 @@
 //Defino las variables que voy a utilizar.
-var dataEvent = { eventName : "Super Evento Fantastico!", eventPrice : 2000, eventDate : "2018-11-10",  eventTime : "09:00:00"};
+var dataEvent = { eventName : "Super Evento Fantastico!",
+                eventPrice : 2000,
+                eventDate : "2018-11-10",
+                eventTime : "09:00:00"};
 var ticketsArray = [];
 var numTicket = 0;
 
