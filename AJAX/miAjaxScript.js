@@ -12,7 +12,7 @@ document.getElementById("obtenerInfoBtn").onclick = function(){
       }
   };
 
-  xhttp.open('GET', 'http://localhost/ajax/?q=data.json', true);
+  xhttp.open('GET', '?q=data.json', true);
   xhttp.send();
 
 };
