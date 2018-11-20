@@ -8,3 +8,6 @@ Repositorio de consulta de los ejercicios de JavaScript realizados en el curso.<
   c. Ingresar un nombre y al presionar un botón saludar a ese nombre de acuerdo al horario del día.</br>
 2. Formulario en JavaScript, que envia los datos a una tabla.</br>
 5. Ejercicio Generar e imprimir tickets para eventos.
+AJAX. Primer ejercicio utilizando AJAX.
+AJAX CON WEBSERVER. Ejercicio que conecta y obtiene información de un WebServer externo.
+jQuery_base. Primer Ejercicio con jQuery.
