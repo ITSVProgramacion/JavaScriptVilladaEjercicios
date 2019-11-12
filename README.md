@@ -1,5 +1,5 @@
 # JavaScriptVilladaEjercicios
-Para ver los ejercicios resueltos ver: [Listado de Ejercicios](https://nikosff.github.io/JavaScriptVilladaEjercicios/)
+Para ver los ejercicios resueltos ver: [Listado de Ejercicios](https://itsvprogramacion.github.io/JavaScriptVilladaEjercicios/)
 Repositorio de consulta de los ejercicios de JavaScript realizados en el curso.</br></br>
 
 1. Ejercicios varios.</br>
