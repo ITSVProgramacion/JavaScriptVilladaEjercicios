@@ -12,7 +12,7 @@ document.getElementById("obtenerInfoBtn").onclick = function(){
       }
   };
 
-  xhttp.open('GET', 'https://nikosff.github.io/JavaScriptVilladaEjercicios/AJAX/data.json', true);
+  xhttp.open('GET', 'https://itsvprogramacion.github.io/JavaScriptVilladaEjercicios/AJAX/data.json', true);
   xhttp.send();
 
 };
